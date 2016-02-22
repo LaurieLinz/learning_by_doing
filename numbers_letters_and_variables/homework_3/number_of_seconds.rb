@@ -22,5 +22,4 @@ number_of_years = 1
 
 puts "That means when you turn 20 you have been alive for #{number_of_seconds_in_a_minute * number_of_minutes_in_a_hour * hours_per_day * days_per_year * number_of_years * 20} seconds"
 
-puts "and if you make it to 100, you will have lived #{number_of_seconds_in_a_minute * number_of_minutes_in_a_hour * hours_per_day * days_per_year * number_of_years * 100} seconds.  Make them count! "
-
+puts "and if you make it to 100, you will have lived #{number_of_seconds_in_a_minute * number_of_minutes_in_a_hour * hours_per_day * days_per_year * number_of_years * 100} seconds.  Make them count!"
