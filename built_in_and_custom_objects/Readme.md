@@ -1,0 +1,3 @@
+Rubocop was mostly happy with this once I eliminated excess spaces and was mindful of my single or double quotes.  I did run into a bump with Missing top-level class documentation comment.  This puzzled me because I could not even determine what this was or what it wanted.  Google results mostly showed how to disable it.  
+
+I even found Jason's blog from last year http://jasonnoble.org/2014/03/fixing-rubocop-errors.html however he states that he disabled it in the root.  Since my setup project has been merged I figured that I would not be able to do that.  So I asked Rubocop to ignore just that line.  
