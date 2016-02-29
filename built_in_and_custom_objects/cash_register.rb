@@ -16,10 +16,10 @@ class CashRegister # rubocop:disable Documentation
   def pay(payment)
     if payment < @total
       @total -= payment
-      puts "Your new total is #{total}"
+      puts "Your new total is $#{total}"
     else
       @total = payment - @total
-      puts "Your change is #{total}"
+      puts "Your change is $#{total}"
       @total = 0.00
     end
   end
