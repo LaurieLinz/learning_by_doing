@@ -7,7 +7,7 @@ array.each do |number|
 end
 
 print "T-"
-array.each do |number|
+array.reverse.each do |number|
   print "#{number},"
 end
 
