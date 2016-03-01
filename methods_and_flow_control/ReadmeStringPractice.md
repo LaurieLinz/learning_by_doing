@@ -1,0 +1,1 @@
+Rubocop was pretty happy with this code.  The one thing that it wanted me to change was that I was using semi-colons where I received and expected end of input error.  I did not really need those and I just used shorter lines which Robocop likes as well.  
