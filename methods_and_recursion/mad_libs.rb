@@ -30,7 +30,7 @@ puts "A vacation is when you take a trip to some #{adjective} place
  with your #{adjective2} family. Usually you go to some place
  that is near a/an #{noun} or up on a/an #{noun2}.
 A good vacation place is one where you can ride #{plural_noun}
-or play #{game} or go hunting for #{plural_noun2} . I like
+or play #{game} or go hunting for #{plural_noun2}. I like
 to spend my time #{verb_ending_ing} or #{verb_ending_ing2}.
 When parents go on a vacation, they spend their time eating
 three #{plural_noun3} a day, and fathers play golf, and mothers
