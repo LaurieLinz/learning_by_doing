@@ -7,11 +7,12 @@ array.each do |number|
 end
 puts ' '
 
+
+
 print 'T-'
-array.reverse_each do |number|
-  print "#{number},"
-end
-print '... BLASTOFF!
+print array.reverse.join(',')
+
+puts '... BLASTOFF!
 '
 
 puts "The last element is #{array.last}"
