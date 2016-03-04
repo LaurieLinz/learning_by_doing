@@ -10,12 +10,13 @@ puts ' '
 
 
 print 'T-'
-print array.reverse.join(',')
+print array.reverse.join(', ')
 
-puts '... BLASTOFF!
-'
+puts '...  BLASTOFF!'
 
 puts "The last element is #{array.last}"
+
+puts "The first element is #{array.first}"
 
 puts "The third element is #{array[2]}"
 
@@ -24,7 +25,7 @@ puts "The element with an index of 3 is #{array[3]}"
 puts "The second from last element is #{array[8]}"
 
 print 'The first four elements are'
-print " #{array.at(0)}, #{array.at(1)}, #{array.at(2)}, #{array.at(3)}
+print " '#{array.at(0)}, #{array.at(1)}, #{array.at(2)}, #{array.at(3)}'
 "
 
 print 'If we delete'
