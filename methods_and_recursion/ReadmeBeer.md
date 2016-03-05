@@ -1,0 +1,1 @@
+This was so simple.  I tried to make it much harder as usual.  Robocop was happy but I did have to play with the spacing a bit.  I had an extra space on line 4 - I just though it was easier to read, but the cop wanted it gone.  I complied. He also wanted spaces around my "-1".
