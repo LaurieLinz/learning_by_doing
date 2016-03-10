@@ -11,13 +11,19 @@ numbers.map! do |x|
   fizz = x % 3 == 0
   buzz = x % 5 == 0
   fizzbuzz = x % 3 == 0 && x % 5 == 0
-
-  puts 'Fizz' if fizz && !fizzbuzz
-  puts 'Buzz' if buzz && !fizzbuzz
-  puts 'FizzBuzz' if fizz && buzz
-  puts x if !fizz && !buzz
+  
 end
 
 # Print out this array and you should have
 # the same output that fizz_buzz.rb produced.
+
+new_array = []
+numbers << new_array
+
+var = 'Fizz' if fizz && !fizzbuzz
+var = 'Buzz' if buzz && !fizzbuzz
+var = 'FizzBuzz' if fizz && buzz
+var = x if !fizz && !buzz
+
+
 
