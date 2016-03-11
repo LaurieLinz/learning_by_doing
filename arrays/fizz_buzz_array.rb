@@ -9,9 +9,9 @@ new_array = numbers
 # FizzBuzz or the number for each element of numbers
 
 new_array.map! do |x|
-  x = 'fizzbuzz' if x % 3 == 0 && x % 5 == 0
-  x = 'fizz' if x % 3 == 0
-  x = 'buzz' if x % 5 == 0
+  x = 'Fizzbuzz' if x % 3 == 0 && x % 5 == 0
+  x = 'Fizz' if x % 3 == 0
+  x = 'Buzz' if x % 5 == 0
   x if x % 5 != 0 || x % 3 != 0
 end
 
