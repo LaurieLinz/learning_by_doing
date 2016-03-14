@@ -13,8 +13,13 @@ class CashRegister
   end
 
   def pay(payment)
-    @total = payment - @total
-    puts "Your change is $#{total}"
+    if payment < @total
+      @total -= payment
+      puts "Your new total is $#{total}"
+    else
+      @total = payment - @total
+      puts "Your change is $#{total}"
+    end
   end
 end
 
