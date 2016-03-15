@@ -1,16 +1,7 @@
 # run code twice per day or more as needed
 class Toothbrush
-  @has_toothpaste = true
+  attr_reader :toothbrush
 end
 
-def initialize
-end
 
-Toothbrush.new
-
-def brush_teeth
-
-end
-
-Toothbrush.new
 
